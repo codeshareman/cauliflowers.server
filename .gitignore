@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.idea/
+.dll/
+.es.json
+.vscode/
+*.tar
+yarn.lock
+yarn-error.log
+package-lock.json
+.vscode
+.DS_Store
