@@ -8,7 +8,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "tsc && nodemon ./server/index.js"
   },
   "dependencies": {
     "mysql": "^2.18.1"
@@ -17,6 +17,7 @@
     "@babel/core": "^7.8.4",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.8.4",
-    "@babel/register": "^7.8.3"
+    "@babel/register": "^7.8.3",
+    "cors": "^2.8.5"
   }
 }
