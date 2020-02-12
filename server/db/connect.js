@@ -1,6 +1,6 @@
 export var config = {
     host: 'localhost',
     user: 'root',
-    password: 'ZyPyc1314',
+    password: 'root@home',
     database: 'cauliflowers',
 };
